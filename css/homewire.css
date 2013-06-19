@@ -43,7 +43,7 @@ footer
 	 border: 1px solid;
 	}
 	
-
+}
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 /* Under 480 px Version */
@@ -60,19 +60,17 @@ footer
 	
 nav
        {
-        border: 1px solid;
+     border: 1px solid;
 	}
 	
 header
        {	
 	 border: 1px solid;
 	}
-	
-	
+		
 #secondarynav
        {
-	 width: 15%;
-	 float: left;
+	border: 1px solid;	 
 	}
 		      
 section
