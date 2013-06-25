@@ -1,53 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
-       <head> 
-	          <title>Home WireFrame</title>
-			  <meta charset="utf-8">
-			  <link href="css/homewire.css" rel="stylesheet" media="screen">
-	   </head>
-	           <body>
-			        
-			    					 
-			        <div id="container">
-	   
-	                    <header>
-			                     <nav>
-								        <h1>Main Nav</h1>
-					             </nav>
-					             <h1>Page Title</h1>
-			            </header>
-						
-						<div id="secondarynav">
-						         <h1>Lecture Listings</h1>
-								 <p>List of lectures 1-12</p>
-						</div>
-						
-				    <div id="content">
-					
-						<section class="about">
-						
-						         <h1>About this Course</h1>
-								 
-						</section>
-						
-						<section class="Expectations">
-						
-						         <h1>Expectations and Reminders</h1>
-								 
-						</section>
-						
-						<section>
-						
-						         <h1>More</h1>
-						</section>
-						
-						<footer>
-						         
-								 <h1>Footer</h1>
-						</footer>
-						
-					</div>
-					
-			        </div>
-	           </body>
+
+<head>
+    <title>The Broken Links - Client Project Home</title>
+    <meta charset="utf-8">
+    
+    <!-- Normalize CSS: A HTML5-ready alternative to CSS resets -->
+    <link rel="stylesheet" href="css/normalize.css" type="text/css">
+    
+    <link rel="stylesheet" href="css/homewire.css" media="screen" type="text/css">
+    
+    <!-- jQuery -->
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    
+    <!-- jQuery plug-in: scrollTo - provides smooth scrolling to a section -->
+    <script src="scripts/jquery.scrollTo-1.4.3.1-min.js"></script>
+    
+    <!-- Primary scripts -->
+    <script src="scripts/script.js"></script>
+    
+</head>
+
+<body>
+
+	<!-- Wrapper for the entire content -->
+    <div id="container">
+        
+        <!-- Top section of the page -->
+        <header id="banner">
+            <h1 id="bannerTitle">The Broken Links</h1>
+            <h2>Redesigning COMP 1950 Website</h2>
+        </header>
+        
+        <!-- Main navigation -->
+        <!-- The weird comment tags after each list item here is to address
+        an annoying inline-block behaviour that adds extra space to the right
+        of list items, which causes a gap in between our horizontal buttons.
+                
+        This solution only breaks in IE6 or 7, but is one of the "cleaner"
+        solutions. I think this compromise is more than acceptable.
+        
+        See for more information: 
+        http://css-tricks.com/fighting-the-space-between-inline-block-elements/
+        -->
+   
+        <nav>
+	        <ul>
+	        	<li><a href="#productPreview" id="productBtn">
+	        	Product Preview</a></li><!--
+	         --><li><a href="#projDescription" id="projectBtn">
+	         Project Description</a></li><!--
+		     --><li><a href="#designObjectives" id="designBtn">
+		     Design Objectives</a></li><!--
+             --><li><a href="#teamMembers" id="teamBtn">
+             Team Members</a></li>
+            </ul>
+        </nav>
+        
+        <!-- Wrapper for content -->
+        <div id="content">
+            <article id="productPreview">
+            	<header>
+                	<h1>Product Preview</h1>
+            	</header>
+            	
+            	<!-- Instruction -->
+            	<p> 
+                	This section will hold a screenshot of our COMP 1950
+                	website, and when we click on the image, it will take
+                	us to our redesigned COMP 1950 website.
+                </p>
+            	
+            	<figure>
+                	<img src="img/preview.jpg" alt="preview.jpg">
+                </figure>
+            </article>
+
+            <article id="projDescription">
+                <header>
+                	<h1>Project Description</h1>
+            	</header>
+            	
+            	<!-- Instruction -->
+            	<p> 
+                	This is where we can enter information about this project.
+                </p>
+                	
+                <!-- Sample texts -->
+                <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Fusce tristique congue orci, vitae fermentum ante aliquam ut.
+                Nullam convallis, nunc a molestie euismod, dolor risus gravida
+                leo, at commodo felis urna nec arcu. Morbi aliquet blandit eros
+                nec ultricies. Praesent rhoncus tristique odio quis varius. 
+                Donec pellentesque est vel risus faucibus vulputate. 
+                Morbi laoreet vel dolor in ornare. Donec nulla magna, 
+                eleifend eu enim eu, volutpat elementum dolor. 
+                Quisque sem metus, ullamcorper pellentesque mattis vitae, 
+                vehicula ac mi. Proin vehicula, odio et rhoncus varius, 
+                ipsum sem dignissim quam, ac pellentesque sem urna non urna. 
+                Vivamus congue, ante a placerat euismod, 
+                velit massa semper nulla, eu tempor ligula velit nec elit.
+                </p>
+            </article>
+
+            <article id="designObjectives">
+                <header>
+                	<h1>Design Objectives</h1>
+            	</header>
+            	
+            	<!-- Instruction -->
+            	<p> 
+                	This is where we can enter information about our design 
+                	choices.
+                </p>
+                	
+                <!-- Sample texts -->
+                <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Fusce tristique congue orci, vitae fermentum ante aliquam ut.
+                Nullam convallis, nunc a molestie euismod, dolor risus gravida
+                leo, at commodo felis urna nec arcu. Morbi aliquet blandit eros
+                nec ultricies. Praesent rhoncus tristique odio quis varius. 
+                Donec pellentesque est vel risus faucibus vulputate. 
+                Morbi laoreet vel dolor in ornare. Donec nulla magna, 
+                eleifend eu enim eu, volutpat elementum dolor. 
+                Quisque sem metus, ullamcorper pellentesque mattis vitae, 
+                vehicula ac mi. Proin vehicula, odio et rhoncus varius, 
+                ipsum sem dignissim quam, ac pellentesque sem urna non urna. 
+                Vivamus congue, ante a placerat euismod, 
+                velit massa semper nulla, eu tempor ligula velit nec elit.
+                </p>
+
+            </article>
+            
+            <article id="teamMembers">
+                <header>
+                	<h1>Team Members</h1>
+            	</header>
+            	
+            	<!-- Instruction -->
+            	<p> 
+                	This is where we can enter information about our team 
+                	members.
+                </p>
+                	
+                <!-- Sample texts -->
+                <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Fusce tristique congue orci, vitae fermentum ante aliquam ut.
+                Nullam convallis, nunc a molestie euismod, dolor risus gravida
+                leo, at commodo felis urna nec arcu. Morbi aliquet blandit eros
+                nec ultricies. Praesent rhoncus tristique odio quis varius. 
+                Donec pellentesque est vel risus faucibus vulputate. 
+                Morbi laoreet vel dolor in ornare. Donec nulla magna, 
+                eleifend eu enim eu, volutpat elementum dolor. 
+                Quisque sem metus, ullamcorper pellentesque mattis vitae, 
+                vehicula ac mi. Proin vehicula, odio et rhoncus varius, 
+                ipsum sem dignissim quam, ac pellentesque sem urna non urna. 
+                Vivamus congue, ante a placerat euismod, 
+                velit massa semper nulla, eu tempor ligula velit nec elit.
+                </p>
+
+            </article>
+        </div>
+        
+        <footer id="pageFooter">
+        	<p>Designed by &copy; The Broken Links</p>
+        </footer>
+    </div>
+</body>
+
 </html>
