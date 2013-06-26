@@ -1,0 +1,115 @@
+/* media query */
+@media only screen and (min-width: 481px) { 
+
+body {
+font-family: Verdana, Arial, San-serif;
+background: #d9d9d9 url('../images/linedpaper.png') repeat fixed;
+}
+
+#container 
+      {
+	 width: 75%;
+	 margin: 0 auto;
+     border: 1px solid;    
+    }
+
+#content
+	{
+	margin-left: 150px;
+	
+	}
+	
+nav
+       {
+        border: 1px solid;		
+	}
+	
+nav ul {	
+list-style-type: none;
+text-decoration: none;	
+}
+header nav li {
+display: inline;
+padding: 0 15px;
+}
+	
+header
+       {	
+	 border: 1px solid;
+	}
+	
+
+}
+
+#bcitpic {
+float: left;
+}	
+	
+
+#secondarynav
+       {
+	 width: 15%;
+	 float: left;
+     padding: 100px 0 95px 0;
+	 list-style-type: none;
+text-decoration: none;
+	}
+  
+section
+       {
+	height: 175px;	 
+	border: 1px solid;
+    }
+	
+footer
+       {
+	 border: 1px solid;
+	}
+	
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* Under 480 px Version */
+@media only screen and (max-width: 480px) {
+
+body {
+background: url(images/linedpaper.png) repeat;
+}
+	
+#container 
+      {
+	 width: 100%;
+	 margin: 0 auto;
+	 text-align: center;
+     border: 1px solid;    
+    } 
+	
+nav
+       {
+     border: 1px solid;
+	}
+	
+header
+       {	
+	 border: 1px solid;
+	}
+		
+#secondarynav
+       {
+	border: 1px solid;	 
+	}
+		      
+section
+       {
+	 padding: 50px 65px 50px 65px;
+	 border: 1px solid;
+    }
+	
+footer
+       {
+	 padding: 20px;
+	 border: 1px solid;
+	}
+	
+
+}
