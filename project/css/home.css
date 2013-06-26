@@ -32,6 +32,11 @@ body {
 	background-color: white;
 }
 
+article {
+border: #E8E8E8 1px solid;
+
+}
+
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* Container, banner, pagefooter padding */
 
