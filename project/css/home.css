@@ -43,10 +43,13 @@ border: #E8E8E8 1px solid;
 #container {
 	padding-top: 10px;
 	padding-bottom: 20px;
+	
 }
 
 #banner {
 	padding-bottom: 10px;
+	background: url('../images/bcitlogo.png') no-repeat;
+	background-position: left top -5px;
 }
 
 #pageFooter {
@@ -116,18 +119,39 @@ padding-left: -20px;
 #topnav {
 width: 80%;
 margin: 0 auto;
+background: black;
+border-radius: 10px;
+
 }
 
 #topnav ul li {
 	display: inline-block;
 	width: 150px;
 	text-align: center;
+	padding: 3px 0;
 }
 
 #topnav img {
 padding: 5px;
 
 }
+
+#topnav a {
+color: white;
+text-decoration: none;
+font-size: 16px;
+-webkit-transition: font-size 0.3s ease;
+-moz-transition: font-size 0.3s ease;
+-o-transition: font-size 0.3s ease;
+-ms-transition: font-size 0.3s ease;
+}
+
+#topnav a:hover {
+font-size:20px;
+color: orange;
+}
+
+
 .search {
 padding-top: 10px;
 float: right;
@@ -142,13 +166,18 @@ float: right;
 }
 
 #content article {
-	width: 60%;
-	margin:0px auto 80px;
+	width: 80%;
+	margin-bottom:50px;
+	margin-left: 17%;
 	text-align: left;
+	padding: 10px;
 }
 
 #content article h1{
-	text-align: center;
+	text-align: left;
+	background:url(../images/brokenlink.png) no-repeat;
+	text-indent: 40px;
+	background-position: left;
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
