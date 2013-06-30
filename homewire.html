@@ -12,12 +12,16 @@
     
     <!-- jQuery -->
     <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-    
+        
     <!-- jQuery plug-in: scrollTo - provides smooth scrolling to a section -->
     <script src="scripts/jquery.scrollTo-1.4.3.1-min.js"></script>
     
     <!-- Primary scripts -->
     <script src="scripts/script.js"></script>
+    
+    <!-- Lightbox Gallery -->
+    <script src="lightbox/lightbox.js"></script>
+    <link href="lightbox/lightbox.css" rel="stylesheet" />  
     
 </head>
 
@@ -51,7 +55,7 @@
 	         --><li><a href="#projDescription" id="projectBtn">
 	         Project Description</a></li><!--
 		     --><li><a href="#designObjectives" id="designBtn">
-		     Design Objectives</a></li><!--
+		     Design Rationale</a></li><!--
              --><li><a href="#teamMembers" id="teamBtn">
              Team Members</a></li>
             </ul>
@@ -64,15 +68,11 @@
                 	<h1>Product Preview</h1>
             	</header>
             	
-            	<!-- Instruction -->
-            	<p> 
-                	This section will hold a screenshot of our COMP 1950
-                	website, and when we click on the image, it will take
-                	us to our redesigned COMP 1950 website.
-                </p>
+            	<h2>Beautifully Simple yet Effective</h2>
             	
             	<figure>
                 	<img src="img/preview.jpg" alt="preview.jpg">
+                	<figcaption>Click image to see the product</figcaption>
                 </figure>
             </article>
 
@@ -83,55 +83,39 @@
                 	<h1>Project Description</h1>
             	</header>
             	
-            	<!-- Instruction -->
-            	<p> 
-                	This is where we can enter information about this project.
-                </p>
+                <h2>Usability, Presentation, and Functionalities</h2>
                 	
-                <!-- Sample texts -->
                 <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                Fusce tristique congue orci, vitae fermentum ante aliquam ut.
-                Nullam convallis, nunc a molestie euismod, dolor risus gravida
-                leo, at commodo felis urna nec arcu. Morbi aliquet blandit eros
-                nec ultricies. Praesent rhoncus tristique odio quis varius. 
-                Donec pellentesque est vel risus faucibus vulputate. 
-                Morbi laoreet vel dolor in ornare. Donec nulla magna, 
-                eleifend eu enim eu, volutpat elementum dolor. 
-                Quisque sem metus, ullamcorper pellentesque mattis vitae, 
-                vehicula ac mi. Proin vehicula, odio et rhoncus varius, 
-                ipsum sem dignissim quam, ac pellentesque sem urna non urna. 
-                Vivamus congue, ante a placerat euismod, 
-                velit massa semper nulla, eu tempor ligula velit nec elit.
+                The project is to redesign the COMP 1950 website. However, we are not redesigning
+                without reasons. While giving COMP 1950 a new look can create a fresh new experience
+                for its visitors, that is not a good enough reason. Instead, the primary goal here
+                is to fulfill the needs to improve the website's ease of use, presentation of content, 
+                and common functionalities. In addition to restyling the website with a great looking new theme,
+                our team has focused on transforming the website into something that is intuitively simple
+                and easy to use.
                 </p>
             </article>
 
             <article id="designObjectives">
                 <header>
-                	<h1>Design Objectives</h1>
+                	<h1>Design Rationale</h1>
             	</header>
             	
-            	<!-- Instruction -->
-            	<p> 
-                	This is where we can enter information about our design 
-                	choices.
-                </p>
-                	
-                <!-- Sample texts -->
+            	<h2>Clarity and Simplicity</h2>
+            	                	
                 <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                Fusce tristique congue orci, vitae fermentum ante aliquam ut.
-                Nullam convallis, nunc a molestie euismod, dolor risus gravida
-                leo, at commodo felis urna nec arcu. Morbi aliquet blandit eros
-                nec ultricies. Praesent rhoncus tristique odio quis varius. 
-                Donec pellentesque est vel risus faucibus vulputate. 
-                Morbi laoreet vel dolor in ornare. Donec nulla magna, 
-                eleifend eu enim eu, volutpat elementum dolor. 
-                Quisque sem metus, ullamcorper pellentesque mattis vitae, 
-                vehicula ac mi. Proin vehicula, odio et rhoncus varius, 
-                ipsum sem dignissim quam, ac pellentesque sem urna non urna. 
-                Vivamus congue, ante a placerat euismod, 
-                velit massa semper nulla, eu tempor ligula velit nec elit.
+                We believe the most important content in the COMP 1950 website is text. Specifically, the lecture notes.
+                Therefore, we've considered many choices involving typography, and you
+                will see that our choices reflect the idea of making texts easy and pleasant to read. We achieved that
+                by using a beautiful font, larger font sizes, and a neutral and soothing colour palette. We are also aware that
+                students enjoy minimizing the time they need to spend on reviewing online content, so providing a faster
+                searching and browsing experience was paramount. We were able to achieve half of this goal earlier by 
+                taking care of the font, because reading is now easy and fast. We then found out that scrolling and navigating
+                through the enormous amount of content wasn't as fast and as easy as it could be, so we added features such as, a static
+                navigation menu that stays on top of your screen, an automatic hiding search bar attached
+                underneath the navigation menu, and automatic scrolling links that take you to any points of
+                interest on the current page. As a result, we've successfully reduced the amount of time spent scrolling, searching,
+                and squinting eyes when using the new COMP 1950 website. That's clarity and simplicity.
                 </p>
 
             </article>
@@ -141,29 +125,24 @@
                 	<h1>Team Members</h1>
             	</header>
             	
-            	<!-- Instruction -->
-            	<p> 
-                	This is where we can enter information about our team 
-                	members.
-                </p>
+            	<h2>Vancouver Specialists</h2>
                 	
-                <!-- Sample texts -->
-                <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                Fusce tristique congue orci, vitae fermentum ante aliquam ut.
-                Nullam convallis, nunc a molestie euismod, dolor risus gravida
-                leo, at commodo felis urna nec arcu. Morbi aliquet blandit eros
-                nec ultricies. Praesent rhoncus tristique odio quis varius. 
-                Donec pellentesque est vel risus faucibus vulputate. 
-                Morbi laoreet vel dolor in ornare. Donec nulla magna, 
-                eleifend eu enim eu, volutpat elementum dolor. 
-                Quisque sem metus, ullamcorper pellentesque mattis vitae, 
-                vehicula ac mi. Proin vehicula, odio et rhoncus varius, 
-                ipsum sem dignissim quam, ac pellentesque sem urna non urna. 
-                Vivamus congue, ante a placerat euismod, 
-                velit massa semper nulla, eu tempor ligula velit nec elit.
-                </p>
-
+                	<ul id="teamgallery">
+                		<li><a rel="lightbox[team]" href="img/jessandivy.jpg" title="Jessica"><img src="img/jessandivy_thumb.jpg" alt="jessandivy.jpg"></a></li>
+                		<li><a rel="lightbox[team]" href="img/ivan.jpg" title="Ivan"><img src="img/ivan_thumb.jpg" alt="ivan.jpg"></a></li>
+                		<li><a rel="lightbox[team]" href="img/jeremy.jpg" title="Jeremy"><img src="img/jeremy_thumb.jpg" alt="jeremy.jpg"></a></li>
+                	</ul>
+                	
+                	<h2>Responsibilities</h2>
+                	
+                	<h3>Jessica</h3>
+                	<p>Wireframe, Responsive Design, and General Implementation</p>
+                	<h3>Ivan</h3>
+                	<p>Sitemap, General Implementation</p>
+                	<h3>Jeremy</h3>
+                	<p>Design, Layout, Bugfixes, and General Implementation</p>
+                	<h3>Tim</h3>
+                	<p>Blog Installation, and General Implementation</p>          	
             </article>
         </div>
         

@@ -21,6 +21,18 @@ h2 {
 	color: #9a9a9a;
 }
 
+p {
+	text-align: left;
+}
+
+#pageFooter p {
+	text-align: center;
+}
+
+#teamMembers p {
+	text-align: center;
+}
+
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* Background Color for body, container, navigation, content */
 
@@ -111,6 +123,11 @@ a:active {
 		border-radius: 10px;
 	}
 	
+}
+
+#teamgallery li
+{
+	display:inline-block;
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
