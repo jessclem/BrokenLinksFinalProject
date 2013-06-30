@@ -31,7 +31,12 @@ header
 	 float: left;
      padding: 100px 0 95px 0;
 	}
-  
+ 
+#subnav
+       {
+        border: 1px solid;
+	}
+ 
 section
        {
 	height: 175px;	 

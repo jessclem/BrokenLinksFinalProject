@@ -24,6 +24,11 @@ header
        {	
 	 border: 1px solid;
 	}
+
+#subnav
+       {
+        border: 1px solid;
+	}
 	
 #secondarynav
        {
