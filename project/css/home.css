@@ -176,7 +176,6 @@ a:active {
 
 #searchbutton {
 	background: url('/project/images/searchbutton.png') no-repeat;
-	float: right;
 	position: relative;
 	top: -7px;
 	left: 7px;
