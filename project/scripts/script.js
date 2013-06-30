@@ -17,4 +17,15 @@ $(document).ready(function() {
     	$.scrollTo("#teamMembers", 1000);
     });
     
+    $(window).scroll(checkScrollPosition);
+    
+    $("#showsearch").click(function(){
+    	$('#searchbar').fadeIn('slow');
+    });
+        
 });
+
+function checkScrollPosition() {
+	$(window).scrollTop() > 100 ? $('#searchbar').fadeOut('slow') : $('#searchbar').fadeIn('slow');
+}
+
