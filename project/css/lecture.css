@@ -1,3 +1,24 @@
+/**
+ * CSS Margin, Padding, Border Reset (Customized)
+ */
+ 
+html, body, div, span, applet, object, iframe,
+blockquote, pre,
+abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* Media Queries */
 @media only screen and (min-width: 481px) {
@@ -35,6 +56,12 @@ h2 {
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* Minimum width for Container */
+#container {
+	min-width:1024px;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* Background Color for body, container, navigation, content */
 
 body {
@@ -54,6 +81,7 @@ border: #E8E8E8 1px solid;
 /* Container, banner, pagefooter padding */
 
 #container {
+	margin-top: 150px;
 	padding-top: 10px;
 	padding-bottom: 20px;
 	
@@ -127,48 +155,64 @@ padding-left: -20px;
 }
 
 #topnav {
-width: 80%;
-margin: 0 auto;
-background: black;
-border-radius: 10px;
+	position:fixed;
+	top:0;
+	width:100%;
+	height:60px;
+	white-space:nowrap;
+	background-color:rgba(70,70,70,0.9);
+	z-index:400;
+}
 
+#topnav ul {
+	text-align:center;
+	margin: 0px;
+	padding: 10px;
 }
 
 #topnav ul li {
-	display: inline-block;
-	width: 150px;
-	text-align: center;
-	padding: 3px 0;
-}
-
-#topnav img {
-padding: 5px;
-
+	display:inline-block;
+	padding-left:15px;
+	padding-right:15px;
 }
 
 #topnav a {
-color: white;
-text-decoration: none;
-font-size: 16px;
--webkit-transition: font-size 0.3s ease;
--moz-transition: font-size 0.3s ease;
--o-transition: font-size 0.3s ease;
--ms-transition: font-size 0.3s ease;
+	color:#fff;
+	text-decoration:none;
+	font-size:16px;
+	-webkit-transition:font-size .3s ease;
+	-moz-transition:font-size .3s ease;
+	-o-transition:font-size .3s ease;
+	-ms-transition:font-size .3s ease;
 }
 
 #topnav a:hover {
-font-size:20px;
-color: orange;
+	font-size:20px;
+	color:orange;
 }
 
-
-.search {
-float: right;
+#searchbar {
+	position:fixed;
+	top:60px;
+	width:100%;
+	height:30px;
+	padding: 10px;
+	white-space:nowrap;
+	background-color:rgba(91, 91, 91, 0.2);
+	background-
+	z-index:400;
+	text-align: center;
 }
 
-#searchlist{
-
-height: 40px;
+#searchbutton {
+	background: url('/project/images/searchbutton.png') no-repeat;
+	position: relative;
+	top: -7px;
+	left: 7px;
+	width: 36px;
+	height: 36px;
+	border: none;
+	cursor: pointer;
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
