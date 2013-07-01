@@ -47,7 +47,7 @@ h2 {
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* Background Color for body, container, navigation, content */
 body {
-	background:#e8e8e8 url(../images/textured_paper.png) repeat fixed;
+	background:#e8e8e8 url(../img/textured_paper.png) repeat fixed;
 }
 
 #container,#content,header {
@@ -68,7 +68,7 @@ article {
 
 #banner {
 	padding-bottom:10px;
-	background:url(../images/bcitlogo.png) no-repeat;
+	background:url(../img/bcitlogo.png) no-repeat;
 	background-position:left top -5px;
 }
 
@@ -176,7 +176,7 @@ a:active {
 }
 
 #searchbutton {
-	background:url(/project/images/searchbutton.png) no-repeat;
+	background:url(../img/searchbutton.png) no-repeat;
 	position:relative;
 	top:-7px;
 	left:7px;
@@ -203,7 +203,7 @@ a:active {
 
 #content article h1 {
 	text-align:left;
-	background:url(../images/brokenlink.png) no-repeat;
+	background:url(../img/brokenlink.png) no-repeat;
 	text-indent:40px;
 	background-position:left;
 }
@@ -260,7 +260,7 @@ a:active {
 	}
 	
 	#searchbutton {
-		background:url(/project/images/searchbutton.png) no-repeat;
+		background:url(../img/searchbutton.png) no-repeat;
 		position:relative;
 		top:-7px;
 		left:7px;
@@ -296,7 +296,7 @@ a:active {
 		background-color:#e9e9e9;
 	}
 	
-	#secondary,#banner {
+	#secondary,#banner, #sitemap {
 		display:none;
 	}
 	
