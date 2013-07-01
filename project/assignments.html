@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>The Broken Links - Home</title>
+    <meta charset="utf-8">
+    
+    <!-- Normalize CSS: A HTML5-ready alternative to CSS resets -->
+    <link rel="stylesheet" href="css/normalize.css" type="text/css">
+    
+    <link rel="stylesheet" href="css/home.css" media="screen" type="text/css">
+    
+    <!-- jQuery -->
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    
+    <!-- jQuery plug-in: scrollTo - provides smooth scrolling to a section -->
+    <script src="scripts/jquery.scrollTo-1.4.3.1-min.js"></script>
+    
+    <!-- Primary scripts -->
+    <script src="scripts/script.js"></script>
+    
+</head>
+
+<body>
+
+	<div id="topnav">
+	   	<ul>
+		   	<li><a href="home.html">Home</a></li>
+		   	<li><a href="lecture.html">Lectures</a></li>
+		   	<li><a href="assignment.html">Assignments</a></li>
+		   	<li><a href="http://thebrokenlinks.tumblr.com/">Blog</a></li>
+		   	<li><a href="#">Contact Info</a></li>  
+		   	<li><a href="javascript:" id="showsearch">Search</a></li>
+		</ul>
+	</div>
+	
+	<div id="searchcontainer">
+		<div id="searchbar">
+			<input size="20" type="text"><button id="searchbutton" type="submit"></button></li>
+		</div>
+	</div>
+								
+	<!-- Wrapper for the entire content -->
+    <div id="container">
+        
+        <!-- Top section of the page -->
+        <header id="banner">
+            <h1 id="bannerTitle">Comp 1950</h1>
+            <h2>Assignments week by week</h2>
+        </header>
+        
+        <!-- Main navigation -->
+        <!-- The weird comment tags after each list item here is to address
+        an annoying inline-block behaviour that adds extra space to the right
+        of list items, which causes a gap in between our horizontal buttons.
+                
+        This solution only breaks in IE6 or 7, but is one of the "cleaner"
+        solutions. I think this compromise is more than acceptable.
+        
+        See for more information: 
+        http://css-tricks.com/fighting-the-space-between-inline-block-elements/
+        -->
+   
+        <nav>
+	        <ul>
+	        	<li><a href="#week1" id="productBtn">
+	        	Assignment 1</a></li><!--
+	         --><li><a href="#week2" id="projectBtn">
+	         Assignment 2</a></li><!--
+		     --><li><a href="#week3" id="designBtn">
+		     Assignment 3</a></li><!--
+             --><li><a href="#week4" id="teamBtn">
+             Assignment 4</a></li>
+            </ul>
+        </nav>
+        
+		<section id="secondary">
+		<h2>Lecture Listings</h2>
+									<ul>
+										<li><a href="#">Home</a></li>
+										<li><a href="#">Week 1</a></li>
+										<li><a href="#">Week 2</a></li>
+										<li><a href="#">Week 3</a></li>
+										<li><a href="#">Week 4</a></li>
+										<li><a href="#">Week 5</a></li>
+										<li><a href="#">Week 6</a></li>
+										<li><a href="#">Week 7</a></li>
+										<li><a href="#">Week 8</a></li>
+										<li><a href="#">Week 9</a></li>
+										<li><a href="#">Week 10</a></li>
+										<li><a href="#">Week 11</a></li>
+										<li><a href="#">Week 12</a></li>								
+									</ul>	
+		
+		</section>
+		
+        <!-- Wrapper for content -->
+        <div id="content">
+		
+		<!-- Lecture Listing Navigation -->
+		
+            <article id="week1">
+            	<header>
+                	<h1>Week 1 Assignment</h1>
+            	</header>
+            	
+            	<!-- Instruction -->
+            	         <p>Create your course web site:</p><ul>
+		<li>Check out the example page created by a past student: <a href="http://past.thenet.ca/lori/">Lori's Example</a></li>
+		<li>Specifically, what I would like to see:
+			<ul>
+				<li>On your homepage:
+					<ul>
+					  <li>Include some information about yourself (such as from your introduction today) including a photo</li></ul></li>
+				<li>For week one:
+					<ul><li>A brief overview of your skill level, web development work you have done so far (if any), links to favourite sites</li>
+						<li>A list of tools, plug-ins, applications or IDEs that you use for web development, including links to web pages of these tools.</li></ul></li></ul></li>
+		<li>Use your understanding of HTML and CSS to the limit of your knowledge, but ensure that it is usable, presentable and coherent</li>
+		<li>This site will be used for the rest of the course, edited each week</li>
+		<li>If we do an exercise in class or if you are assigned something for homework, please make sure you indicate that.  Link to exercises and assignments from the appropriate week.  <em>Don't make me have to search for your homework.</em></li>
+<li>There needs to be a link from the <strong>myBCIT Members</strong> page to your Student Homepage</li>
+</ul>		
+            </article>
+
+            <article id="week2">
+			<header>
+                	<h1>Week 2 Assignment</h1>
+            	</header>
+       <p>You have <strong>two pieces of homework</strong> for this week. Please finish both:</p>
+			<ul><li><a href="exercises/content.html">Create a page for Finnegan</a></li>
+			<li><a href="exercises/exercise2.html">Create a page for a Realtor</a></li></ul>
+            </article>
+
+            <article id="week3">
+                <header>
+                	<h1>Week 3 Assignment</h1>
+            	</header>
+            	
+            	<p>Consider the pages you created for the Finnegan and Realtor pages. Now go over some of the tags we discussed in reference to HTML5 and SEO principles, as well as the semantic discussion from last week.</p>
+		<p>Make a copy of each page, leaving your XHTML homework from last week as your Week 2 assignment. Convert each copy to HTML5 pages as your week 3 homework.</p>
+
+            </article>
+            
+			
+			<article id="week4">
+            	<header>
+                	<h1>Week 4 Assignment</h1>
+            	</header>
+				<h3>Using Various Selectors</h3>
+<p>While most selectors are fairly straightforward, using the right ones can be a little confusing.</p>
+<p>To get a better handle on how they work, we'll use difference kinds of selectors to complete the exercises listed below</p>
+<p>For this exercise, you can use Firefox and either <a href="https://addons.mozilla.org/firefox/60/">Web Developer Extension</a> or <a href="http://getfirebug.com/">Firebug</a> in order to access Edit CSS</p>
+<ul>
+	<li><a href="exercise/exercise1.html">Exercise 1</a></li>
+	<li><a href="exercise/exercise2.html">Exercise 2</a></li>
+</ul>
+<p>Try to make your page look exactly like the example pages</p>
+
+
+<h3>More Attribute Selectors - Identify File Types</h3>
+<p>In this <a href="exercise/exercise3.html">attribute selector exercise</a>, you will use attribute selectors to add more context to links on a page.</p>
+
+<h3>Realtor Page Enhancements</h3>
+<p>Next week we will use what you will do for homework this week to build a responsive site using media queries.</p>
+<p>To prepare yourself, please add more detail into your Realtor page so that you have content to work with:</p>
+<ul>
+	<li>Realtor name, company, contact information</li>
+	<li>Realtor bio (a few sentences on the Realtor)</li>
+	<li>At least 3 houses for sale with details like Address, List price, Bedrooms, Bathrooms, Square footage, Year built</li>
+	<li>Content in the Header and Footer</li>
+	<li>A navigation that points to at least 4 other pages. Anything you like, but check other Realtor pages for examples if you don't have any</li>
+	<li>Links can just self reference ( &lt;a href="#"&gt; ... &lt;/a&gt; )</li>
+</ul>
+
+<h3>Print Stylesheet for Realtor</h3>
+<p>Using the notes from the Creating a Print Stylesheet notes above, create a print stylesheet for your Realtor page.</p>
+<p>Think about what information would be present on your web version that might not be on your print version</p>
+
+<h3>Alternate stylesheet for Realtor</h3>
+<p>Take the HTML5 version of the blog page you created for your Realtor and apply two stylesheets:</p>
+<ol>
+	<li>Use the straightforward one similar to the original</li>
+	<li>Create an alternate stylesheet and change the style of the page <em>significantly</em>.  Keep all of the elements, don't change any HTML, just change the CSS.</li>
+	<li>Remember to give the two stylesheets names so that you can differentiate them</li>
+	<li>Use Firefox to View &gt; Page Style</li>
+</ol>
+
+<p>You might need to change around some of your HTML in order to make everything work properly</p>
+
+<h3>Using different Navigation Lists on Realtor page</h3>
+
+<p> Along with creating an Print Stylesheet and an Alternate Stylesheet, you will use two different list styles on your Realtor page:</p>
+
+<ul>
+	<li>Your first stylesheet should feature list-style navigation, either horizontal or vertical</li>
+	<li>Your second stylesheet should feature a completely different list-style navigation</li>
+</ul>
+
+<p>Both lists will come from the same HTML, just using different CSS. </p>
+				
+				
+			</article>
+            
+        </div>
+        
+        <footer id="pageFooter">
+        	<p>Designed by &copy; The Broken Links</p>
+        </footer>
+    </div>
+</body>
+
+</html>
